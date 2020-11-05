@@ -185,7 +185,7 @@ class ImagePickerGC {
                     },
                     child: Container(
                       child: ListTile(
-                        title: cameraText ?? Text("Remove Image"),
+                        title: Text("Remove"),
                         leading: Icon(
                           Icons.remove_circle_outline,
                           color: Colors.red[300],
