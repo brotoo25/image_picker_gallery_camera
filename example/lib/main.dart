@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                 width: 300,
                 child: RaisedButton(
-                  onPressed: () => getImage(ImgSource.Both),
+                  onPressed: () => getImage(ImgSource.Remove),
                   color: Colors.red,
                   child: Text(
                     "Both".toUpperCase(),

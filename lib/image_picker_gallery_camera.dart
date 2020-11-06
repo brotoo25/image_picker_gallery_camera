@@ -185,9 +185,9 @@ class ImagePickerGC {
                     },
                     child: Container(
                       child: ListTile(
-                        title: Text("Remove"),
+                        title: Text("Remove Image"),
                         leading: Icon(
-                          Icons.remove_circle_outline,
+                          Icons.remove_circle,
                           color: Colors.red[300],
                         ),
                       ),
